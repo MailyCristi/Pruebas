@@ -1,14 +1,15 @@
 pipeline{
-	agent any
-	stages{
-		stage("Enlistar"){
-			steps{
-				script{
-					dir('Pruebas/'){
-						sh "pw"
-					}
-				}
-			}
-		}	
-	}
+    agent any
+    stages{
+        stage("Saludo 1"){
+            steps{
+                echo "Hola desde saludo 1"
+            }
+        }
+        stage("Saludo 2"){
+            steps{
+                echo "Hello world"
+            }
+        }        
+    }
 }
