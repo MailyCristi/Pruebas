@@ -6,10 +6,10 @@ pipeline{
                 echo "Hola desde saludo 1"
             }
         }
-        stage("Saludo 2"){
+        stage("Saludando"){
             steps{
-                echo "Hello world"
+                echo "Hola maily"
             }
-        }        
+        }
     }
 }
